@@ -1,0 +1,9 @@
+
+BEGIN;
+
+DROP FUNCTION IF EXISTS trigger_set_timestamp CASCADE;
+
+DROP TABLE IF EXISTS auth_tokens;
+DROP TABLE IF EXISTS users;
+
+COMMIT;
